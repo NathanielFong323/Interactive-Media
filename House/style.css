@@ -1,0 +1,130 @@
+/* Shooting Stars */
+
+body {
+    background-color: rgb(21, 21, 85);
+    height: 100vh;
+    width: 100vw;
+}
+
+#HomeButton {
+    background-color: yellow;
+    border-radius: 10px;
+    min-height:30px; 
+    min-width: 90px;
+    position: relative;
+    top: 90%;
+    left: 45%;
+}
+#HomeButton:hover {
+    background-color: red !important;
+}
+
+#TextBox {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2d2d2d;
+    border: 2px solid #8b8b8b;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e0e0e0;
+    position: relative;
+    top: 68%;
+    left: 11%;
+}
+
+.shooting-stars {
+
+position: absolute;
+
+z-index: -10;
+
+}
+
+.stars1 {
+
+color: rgb(245, 245, 171);
+
+text-shadow: rgb(190, 190, 232);
+
+font-size: 1.4em;
+
+letter-spacing: -2px;
+
+text-shadow: 2px 2px 20px yellow;
+
+opacity: 0.9;
+
+}
+
+#star1 {
+
+position: absolute;
+
+top: 0px;
+right: 10vw;
+animation: 3.3s shootingStar linear infinite;
+
+}
+
+#star2 {
+position: absolute;
+top: 0px;
+right: 50vw;
+animation: 2.7s shootingStar linear infinite;
+}
+
+#star3 {
+position: absolute;
+top: -15vh;
+right: 60vw;
+animation: 4.2s shootingStar linear infinite;
+animation-delay: 1.2s;
+}
+
+#star4 {
+position: absolute;
+top: -30vh;
+right: 90vw;
+animation: 4.3s shootingStar linear infinite;
+animation-delay: 2s;
+}
+
+#star5 {
+position: absolute;
+top: -40vh;
+right: 30vw;
+animation: 3s shootingStar linear infinite;
+}
+
+#star6 {
+position: absolute;
+top: -3vh;
+right: -50vw;
+animation: 3s shootingStar linear infinite;
+animation-delay: 1.2s;
+}
+
+#star7 {
+position: absolute;
+top: -22px;
+right: -20vw;
+animation: 2s shootingStar linear infinite;
+animation-delay: 2.2s;
+}
+
+@keyframes stars-fall {
+0% {
+line-height: 5px;
+}
+100% {
+line-height: 10px;
+}
+}
+@keyframes shootingStar {
+0% {
+transform: rotateZ(-40deg) translateX(0%) translateY(0%);
+}
+100% {
+transform: rotateZ(-70deg) translateX(-150vw) translateY(50vh);
+}
+}
