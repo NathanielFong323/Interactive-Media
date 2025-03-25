@@ -1,8 +1,4 @@
-// Partly taken from https://www.youtube.com/watch?v=wG_5453Vq98
-// Then modified with Deepseek to make my cursor hovering and clicking the images below the kangaroo, with prompt:
-// "so i have an imageA that follows my cursor in html, and another imageB that send me to another sit when clicked, and change background color when hovered.
-// if i set imageA pointer-events to auto, I can hover imageB but not click it, but if i set imageA pointer-events to none, I can click imageB but not hover it.
-// how do i make it such that i can click and hover imageB while imageA is always in front of the mouse?"
+// Enhanced JavaScript
 console.clear();
 
 const circleElement = document.querySelector('.knagaroo');
