@@ -1,4 +1,4 @@
-// Edited from DeepSeek with prompt "Based on MMO Dialogue option, how to code it with css html"
+// Edited from DeepSeek with prompt "Based on MMO Dialogue option, how to code it with css html
 document.addEventListener("DOMContentLoaded", function () {
     const peerButton = document.getElementById("Kick");
     const throwCoinButton = document.getElementById("Ignore");
