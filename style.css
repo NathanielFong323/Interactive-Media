@@ -39,6 +39,9 @@ header:hover {
   pointer-events: none; 
   z-index: 9999;
 }
+/* Line 45-56 generated with deepseek with prompt "I have an imageA that follows my cursor in html, and another imageB that send me to another sit when clicked, and change background color when hovered.
+ if i set imageA pointer-events to auto, I can hover imageB but not click it, but if i set imageA pointer-events to none, I can click imageB but not hover it.
+how do i make it such that i can click and hover imageB while imageA is always in front of the mouse?" */
 .cursor-proxy {
   position: absolute;
   width: 20px;
@@ -134,36 +137,36 @@ display: block;
 /* #endregion */
 
 /* #region Control for Title Locations */
-  #Pond {
-      max-width: 22vw;
-      width: 30%;
-      height: auto;
-      position: relative;
-      left: 65%;
-      top: 45%;
-  }
-  #Signs {
-      max-width: 15vw;
-      width: 15%;
-      height: auto;
-      position: relative;
-      left: 5%;
-      top: 0%;
-  }
-  #House {
-      max-width: 27vw;
-      width: 30%;
-      height: auto;
-      position: relative;
-      left: -27%;
-      top: 55%;
-  }
-  #Well {
-      max-width: 20vw;
-      width: 30%;
-      height: auto;
-      position: relative;
-      left: 13%;
-      top: -15%;
-  }
+#Pond {
+    max-width: 22vw;
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 65%;
+    top: 45%;
+}
+#Signs {
+    max-width: 15vw;
+    width: 15%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 0%;
+}
+#House {
+    max-width: 27vw;
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: -27%;
+    top: 55%;
+}
+#Well {
+    max-width: 20vw;
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 13%;
+    top: -15%;
+}
 /* #endregion */
