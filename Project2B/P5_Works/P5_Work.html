@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5.js Experimental Works</title>
+    <style>
+        body {
+            background-color: #363636;
+        }
+        button {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #123458;
+            color: #D4C9BE;
+            border: 2px solid #D4C9BE;
+            min-width: 300px;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 0; 
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 5px 5px 0 #000000;
+            margin-left: 13px;
+            font-weight : bold ;
+        }
+        button:hover{
+            background-color: #D4C9BE;
+            color: #123458;
+            border: 2px solid #537da9;
+        }
+        h1 {
+            color: #D4C9BE;
+            font-size: 2.5rem;
+            line-height: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 1%;
+        }
+        p {
+            color: #F1EFEC;
+            font-size: 1.1rem;
+            line-height: 1.4rem;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 1%;
+        }
+        img {
+            max-width: 40%;
+            max-height: 300px;
+            margin-bottom: 10px;
+            border: 3px solid #537da9;
+        }
+    </style>
+</head>
+<body>
+    <a href="../2B_HomePage/2B_HomePage.html"><button>Back to 2B Home Page</button></a>
+    <h1>Wave Drawing with Audio</h1>
+    <p>
+        Heavily inspired by Synchronicity from my Research Journal, I set out to create the beauty of waveforms through an interactive <br>ocean wave generator with audio. At first I struggled with writing a cos wave function with a visually pleasing amplitude, speed and <br>wavelength, which took numerous trials and errors to get a working function. 
+        <br>Next as mentioned in my research, where I plan to combine basic techniques to generate complex geometry, I implemented<br> audio-responsive controls, where the user can control the amplitude of waves with their volume. This I found significantly increase <br>the user's engagement as they created different array and shapes of waves.<br><br>
+        Some Early iterations with different wavelength, amplitude and styles:<br>
+        <img src="Pic/Work01_01.png">
+        <img src="Pic/Work01_02.png">
+        <img src="Pic/Work01_03.png">
+        <br> I experimented with the wave fading away to create a more mystical feeling. However, I ultimately decided to keep previous waves <br>to create layers of waves, generating the illusion of 3 dimensional. Later inspired by the game Monumnent Valley's simple and <br>calming aesthetic, I decided to keep the original black and white scheme, but assinging the background to dark instead, while <br>removing outlines on the circles, which made the waveforms appear smoother and calming.<br><br>
+        Final Iterations:<br>
+        <img src="Pic/Work01_04.png">
+        <img src="Pic/Work01_05.png">
+    </p>
+    <a href="Work_01/index.html"><button>To Wave Drawing</button></a>
+    <br><br><br>
+    <h1>Gravity Game</h1>
+    <p>
+        Inspired by Mario Galaxy, I aim to create a gravity-based game where the user can similarly control the direction of gravity and <br>accelerate the ball around the window screen. My biggest challenge was emulating a physics system. First, I tried creating a ball <br>that bounces on the ground. Afterward, I experimented with controlling the acceleration using my mouse position and successfully <br>created the first iteration of the gravity game.<br><br>
+        <img src="Pic/Work02_01.png">
+        <br> Though the basic mechanism is finished, I still want to implement a concept similar to Conway's Game of Life, where the algorithm <br>evolves over time. Later, I added the ability for users to spawn more balls with a click, which soon turned the entire window into <br>chaos. This function took the most time to figure out, as I had to understand arrays to make new balls that follow the gravitational <br>forces. I also added a title screen and bouncing sounds, which significantly enhanced the arcade feeling.<br>
+        <img src="Pic/Work02_02.png">
+    </p>
+    <a href="Work_02/index.html"><button>To Gravity Game</button></a>
+    <br><br><br>
+    <h1>Interactive Screenshot Filter</h1>
+    <p>Inspired by The Story of the Moving Image exhibited at the ACMI, where you are filtered into a stylized stick figue, I also set out to <br>recreate something similar. Incorporating different mechanics I learnt from Week04-Week06, I plan to make a screenshot button, <br>which immediately start generating circles to illustrate the screenshot.<br><br>
+    <img src="Pic/Work03_01.png">
+    <br> One interesting consequence of this function is that, if I spam click the screenshot button, I can randomly overlap several images <br>together, creating a dynamic and interesting pattern.
+    </p>
+    <a href="Work_03/index.html"><button>To Screenshot Filter</button></a>
+    <br><br><br>
+    <a href="#"><button>Back To Top</button></a>
+</body>
+</html>
